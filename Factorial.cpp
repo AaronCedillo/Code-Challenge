@@ -1,4 +1,5 @@
 // Crear un programa el cual nos pida un valor de entrada, a este valor de entrada se le debe sacar su factorial.
+	//Ejemplo: x = 3, out = 6
 
 #include <iostream>
 #include <stdlib.h>
