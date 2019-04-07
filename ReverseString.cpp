@@ -19,7 +19,7 @@ void String() {
 int main() {
 	
 	cout << "Dame una cadena de caracteres: ";
-	cin >> input;
+	getline(cin, input);
 	
 	String();
 }
