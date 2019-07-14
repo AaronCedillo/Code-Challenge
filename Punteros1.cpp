@@ -13,6 +13,7 @@ int funcionPunteros(int *valor) {
 	
 	*valor = *valor + 10;
 	return *valor;
+	delete valor;
 }
 
 int main() {
@@ -25,4 +26,6 @@ int main() {
 	
 	funcionPunteros(&numero);
 	cout << "Despues de la funcion punetros: " << numero << "\n";
+	
+	cout << "Direccion de memoria del numero: " << &numero;
 }
