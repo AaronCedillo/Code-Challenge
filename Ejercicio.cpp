@@ -37,7 +37,7 @@ int main() {
 		switch(x) {
 			
 			case 'a':
-				cout << "ingrese un numero: " << "\n";
+				cout << "ingrese un numero: " << "\n" ;
 				cin >> y;
 
 				CuboDeUnNumero(&y);
