@@ -6,6 +6,7 @@ using namespace std;
 int x;
 
 void TablaDeMultiplicar(int *valor) {
+	
 	for(int i = 1; i < 11; ++i) {
 		int value = *valor * i;
 		cout << *valor << "*" << i << " = ";
