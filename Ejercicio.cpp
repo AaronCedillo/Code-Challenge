@@ -14,7 +14,7 @@ int CuboDeUnNumero(int *valor1) {
 	delete valor1;
 }
 
-int NumeroParImpar(int *valor2) {
+void NumeroParImpar(int *valor2) {
 	if(*valor2 %2 == 0) 
 		cout << "El numero es par";
 		else 
